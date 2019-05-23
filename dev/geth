@@ -1,0 +1,17 @@
+#!/bin/sh
+
+currdir=$(realpath "$(dirname "$0")")
+
+if [ "$1" = "console" ]
+then xtra_args="--unlock 1 --password /dev/null"; fi
+
+exec /usr/bin/geth \
+  -dev \
+  --datadir /var/tmp/geth/data \
+  $xtra_args \
+  --nodiscover \
+  --networkid 42 \
+  --mine \
+  --miner.threads=1 \
+  --rpc \
+  "$@"

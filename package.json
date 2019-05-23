@@ -1,0 +1,10 @@
+{
+  "name": "capz-smart-contract",
+  "version": "0.0.1",
+  "dependencies": {
+    "chai": ">=4.2.0",
+    "ganache-cli": "^6.4.3",
+    "truffle": ">=5.0.14",
+    "truffle-assertions": ">=0.8.2"
+  }
+}
