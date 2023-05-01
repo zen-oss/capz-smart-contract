@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "chai": ">=4.2.0",
-    "ganache-cli": "^6.4.3",
-    "truffle": ">=5.0.14",
+    "ganache-cli": "^6.12.2",
+    "truffle": ">=5.8.4",
     "truffle-assertions": ">=0.8.2"
   }
 }
